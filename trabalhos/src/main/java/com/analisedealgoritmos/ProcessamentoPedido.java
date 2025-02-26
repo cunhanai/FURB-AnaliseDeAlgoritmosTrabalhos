@@ -23,6 +23,5 @@ public class ProcessamentoPedido {
         valoresOpcaoEntrega.put("Retirada", valorRetirada);
 
         return valoresOpcaoEntrega; 
-        // diferença
     }
 }
