@@ -22,7 +22,6 @@ public class ProcessamentoPedido {
         double valorRetirada = new Retirada().calcularValorEntrega(pedido.getProdutos());
         valoresOpcaoEntrega.put("Retirada", valorRetirada);
 
-        return valoresOpcaoEntrega; 
-        // diferença
+        return valoresOpcaoEntrega;
     }
 }
